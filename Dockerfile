@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# useradd is the non-interactive counterpart to adduser — safe for scripted/CI environments.
+# useradd es la contraparte no interactiva de adduser — segura para entornos con scripts/CI.
 RUN useradd --system --no-create-home --shell /bin/false appuser
 USER appuser
 

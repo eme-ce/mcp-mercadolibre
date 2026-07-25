@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# mcp-mercadolibre
-=======
 # Servidor MCP de MercadoLibre
 
 Un servidor [Model Context Protocol (MCP)](https://modelcontextprotocol.io) que conecta a Claude directamente con tu cuenta de vendedor de MercadoLibre. Gestioná publicaciones, pedidos y envíos — todo mediante lenguaje natural.
@@ -201,4 +198,3 @@ ML rota el refresh token en cada llamada de renovación. El servidor registra el
 ## Licencia
 
 MIT
->>>>>>> 61ebe8b (primer commit. forkeado desde shopify-mcp)
